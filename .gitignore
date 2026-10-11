@@ -1,0 +1,28 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C / C++ binaries
+*.exe
+*.out
+*.o
+*.obj
+
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Input / Output test files
+*.in
+*.out
+input.txt
+output.txt

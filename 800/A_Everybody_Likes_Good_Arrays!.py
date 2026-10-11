@@ -1,0 +1,20 @@
+t=int(input())
+for _ in range(t):
+    n=int(input())
+    nums=list(map(int,input().split()))
+    i=0
+    if(n==1):
+        print(0)
+    else:
+        prev=nums[0]
+        ops=0
+        i=1
+        while(i<n):
+            if(nums[i]%2==prev%2):
+                prev*=nums[i]
+                i+=1
+                ops+=1
+            else:
+                prev=nums[i]
+                i+=1
+        print(ops)
